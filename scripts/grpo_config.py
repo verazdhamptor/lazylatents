@@ -4,21 +4,21 @@ from copy import deepcopy
 
 GRPO_CONFIG = {
     "0_1_b": {
-        "lr": 0.00015,
+        "lr": 0.00018,
         "distributed": "ddp",
         "gpu_count": 1,
         "batch_size": 40,
         "vllm_gpu_memory_utilization": 0.4
     },
     "1_2_b": {
-        "lr": 7.5e-5,
+        "lr": 9e-5,
         "distributed": "ddp",
         "gpu_count": 1,
         "batch_size": 40,
         "vllm_gpu_memory_utilization": 0.4
     },
     "2_4_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 42,
@@ -26,7 +26,7 @@ GRPO_CONFIG = {
         "use_lora": True
     },
     "4_5_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 42,
@@ -34,7 +34,7 @@ GRPO_CONFIG = {
         "vllm_gpu_memory_utilization": 0.4
     },
     "5_6_b": {
-        "lr": 6e-5,
+        "lr": 8e-5,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 42,
@@ -42,7 +42,7 @@ GRPO_CONFIG = {
         "vllm_gpu_memory_utilization": 0.4
     },
     "6_9_b": {
-        "lr": 6e-5,
+        "lr": 8e-5,
         "distributed": "ddp",
         "gpu_count": 4,
         "batch_size": 24,
@@ -50,7 +50,7 @@ GRPO_CONFIG = {
         "vllm_gpu_memory_utilization": 0.5
     },
     "9_12_b": {
-        "lr": 6.5e-5,   
+        "lr": 8e-5,   
         "distributed": "ddp",
         "gpu_count": 4,
         "use_lora": True,
@@ -58,7 +58,7 @@ GRPO_CONFIG = {
         "vllm_gpu_memory_utilization": 0.6
     },
     "12_15_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 4,
         "use_lora": True,
@@ -66,7 +66,7 @@ GRPO_CONFIG = {
         "vllm_gpu_memory_utilization": 0.8,
     },
     "15_20_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 4,
         "use_lora": True,
@@ -75,7 +75,7 @@ GRPO_CONFIG = {
         "use_vllm": False,
     },
     "20_40_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 8,
         "use_lora": True,
@@ -85,7 +85,7 @@ GRPO_CONFIG = {
         "use_4bit": True
     },
     "40_80_b": {
-        "lr": 8e-5,
+        "lr": 10e-5,
         "distributed": "ddp",
         "gpu_count": 8,
         "use_lora": True,
